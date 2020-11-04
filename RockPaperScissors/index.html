@@ -1,0 +1,104 @@
+<html>
+
+  <head>
+    <title>Rock Paper Scissors</title>    
+    <link rel="stylesheet" type="text/css" href="styles/game-ui.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+
+
+
+  </head>
+
+  <body>
+
+    <div id="layout-container">
+
+        <div id="game-title"><h1 id="title">Rock Paper Scissors</h1></div>
+      
+        <div id="winner-display-container"> 
+          <h2 id="winner-display"></h2>
+        </div>
+        
+        <div id="game-input-container">
+
+            <div id="img-container">
+
+                <div id="rock">
+                  <img id="rock-button" src="images/rock.png" class="image-size" alt="rock">            
+                </div>
+
+                <div id="paper">
+                  <img id="paper-button" src="images/paper.png" class="image-size" alt="paper">    
+                </div>
+              
+                <div id="scissors">
+                  <img id="scissors-button" src="images/scissors.png" class="image-size" alt="scissors">
+                </div>
+
+              </div>
+
+            <div id= "input-container">
+              <div class="button">
+                <h3>Rock</h3>
+              </div>
+
+              <div class ="button">
+                <h3>Paper</h3>
+              </div>
+
+              <div class="button">
+                <h3>Scissors</h3>
+              </div>
+
+            </div>
+
+          
+          <div score id=score-display-container>
+            <div id="score-container">
+
+              <div class="score-formatting">
+
+                <h1>Player Score</h1>
+
+                <h2 id="player-score">Score: 0</h2>
+
+              </div>
+
+              <div class="score-formatting">
+                <h1 >Computer Score</h1>
+
+                <h2 id="computer-score">Score: 0</h2>
+
+            </div>
+          </div>
+          
+          <div id="hands-selected-display">
+
+            <div id="player-hand-container" class="hand-chosen-container">              
+              
+              <div class="hand-chosen-image-container">
+                <img id="player-hand-chosen" class="hand-chosen-image">
+              </div>
+              <h4>Player Chose:</h4>
+
+            </div>
+
+            <div id="computer-hand-container" class="hand-chosen-container">
+              
+              <div class="hand-chosen-image-container">
+                <img id="computer-hand-chosen" class="hand-chosen-image">
+              </div>
+              <h4>Computer Chose:</h4>
+            </div>
+
+          </div>
+        </div>
+
+        
+    </div>
+
+    <script type="text/javascript" src="scripts/rock-paper-scissors.js"></script>
+    
+  </body>
+
+</html>
