@@ -5,6 +5,4 @@
   <br></br>
   The project is was meanth to practice DOM manipulation with js
 </p>
-<h2>
-  <a href="https://shanmehr.github.io/RockPaperScissors/"><Live Site</a>
-</h2>
+<a href="https://shanmehr.github.io/RockPaperScissors"><h2>Live Site</h2></a>
